@@ -1,0 +1,39 @@
+{
+ "id": "./",
+ "name": "VHN Labs",
+ "short_name": "VHN Labs",
+ "description": "Jogos e aplicativos da VHN Labs, grátis no celular e no computador.",
+ "lang": "pt-BR",
+ "dir": "ltr",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#040c20",
+ "theme_color": "#040c20",
+ "categories": [
+  "games",
+  "entertainment"
+ ],
+ "prefer_related_applications": false,
+ "icons": [
+  {
+   "src": "icone-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icone-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icone-maskable.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
