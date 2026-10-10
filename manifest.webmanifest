@@ -1,0 +1,27 @@
+{
+ "id": "./",
+ "name": "VHN Labs",
+ "short_name": "VHN Labs",
+ "description": "Jogos e aplicativos da VHN Labs",
+ "lang": "pt-BR",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#040c20",
+ "theme_color": "#040c20",
+ "icons": [
+  {
+   "src": "icone.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "icone.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
