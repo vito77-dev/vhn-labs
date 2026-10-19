@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vito77-dev.github.io/vhn-labs/sitemap.xml
