@@ -1,5 +1,5 @@
 /* VHN Labs: deixa o site instalável e guarda tudo para abrir sem internet. */
-const V='vhn-v13',BASE=['./','./index.html','./jogos.js','./capas.js','./manifest.webmanifest','./icone-192.png','./icone-512.png','./icone-maskable.png'];
+const V='vhn-v14',BASE=['./','./index.html','./jogos.js','./capas.js','./manifest.webmanifest','./icone-192.png','./icone-512.png','./icone-maskable.png'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(V).then(c=>Promise.all(BASE.map(u=>c.add(u).catch(()=>0)))).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==V).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{
